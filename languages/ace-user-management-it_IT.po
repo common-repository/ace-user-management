@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-03-01 04:13+0530\n"
+"PO-Revision-Date: 2019-03-01 04:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ace-user-management-admin.php:121
+msgid "User Registration"
+msgstr "Registrazione Utente"
+
+#: admin/class-ace-user-management-admin.php:129
+#: admin/class-ace-user-management-admin.php:130
+#: admin/class-ace-user-management-admin.php:271
+msgid "Custom Fields"
+msgstr "Campi personalizzati"
+
+#: admin/class-ace-user-management-admin.php:137
+#: admin/class-ace-user-management-admin.php:138
+#: admin/class-ace-user-management-admin.php:210
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/class-ace-user-management-admin.php:174
+#: admin/class-ace-user-management-admin.php:177
+msgid "! Site key field is empty"
+msgstr "! Il campo chiave del sito è vuoto"
+
+#: admin/class-ace-user-management-admin.php:180
+msgid "! Secret key not valid"
+msgstr "! Chiave segreta non valida"
+
+#: admin/class-ace-user-management-admin.php:183
+msgid "! Secret key field is empty"
+msgstr "! Il campo chiave segreta è vuoto"
+
+#: admin/class-ace-user-management-admin.php:204
+msgid "Seccussfully update"
+msgstr "Aggiornamento Seccussfully"
+
+#: admin/class-ace-user-management-admin.php:216
+msgid "Enable reCaptcha"
+msgstr "Abilita reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:218
+msgid "Disable reCaptcha"
+msgstr "Disabilita reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:227
+msgid "Site Key"
+msgstr "Chiave Sito"
+
+#: admin/class-ace-user-management-admin.php:232
+msgid "Secert Key"
+msgstr "Chiave segreta"
+
+#: admin/class-ace-user-management-admin.php:236
+#: admin/class-ace-user-management-admin.php:253
+#: admin/partials/register_form.php:126
+msgid "Save"
+msgstr "Salvare"
+
+#: admin/class-ace-user-management-admin.php:247
+msgid "StyleSheet(plugin pages css)"
+msgstr "StyleSheet (pagine di plugin css)"
+
+#: admin/class-ace-user-management-admin.php:300
+msgid "field are updated successfully"
+msgstr "il campo viene aggiornato correttamente"
+
+#: admin/partials/ace-user-management-admin-display.php:19
+msgid "Preview"
+msgstr "Anteprima"
+
+#: admin/partials/ace-user-management-admin-display.php:21
+msgid "Registration Form"
+msgstr "Formulario di registrazione"
+
+#: admin/partials/ace-user-management-admin-display.php:23
+#: admin/partials/ace-user-management-admin-display.php:24
+#: public/partials/ace-login.php:36 public/partials/ace-profile.php:81
+#: public/partials/ace-registration.php:48
+#: public/partials/ace-registration.php:49
+msgid "Username"
+msgstr "Nome utente"
+
+#: admin/partials/ace-user-management-admin-display.php:27
+#: public/partials/ace-registration.php:52
+msgid "E-mail"
+msgstr "E-mail"
+
+#: admin/partials/ace-user-management-admin-display.php:28
+#: public/partials/ace-profile.php:77 public/partials/ace-registration.php:53
+msgid "Email"
+msgstr "Email"
+
+#: admin/partials/ace-user-management-admin-display.php:31
+#: admin/partials/ace-user-management-admin-display.php:32
+#: public/partials/ace-confirm-randnum.php:24 public/partials/ace-login.php:40
+#: public/partials/ace-profile.php:85 public/partials/ace-registration.php:56
+#: public/partials/ace-registration.php:57
+msgid "Password"
+msgstr "Parola d'ordine"
+
+#: admin/partials/ace-user-management-admin-display.php:35
+#: admin/partials/ace-user-management-admin-display.php:36
+#: public/partials/ace-confirm-randnum.php:28
+#: public/partials/ace-profile.php:89 public/partials/ace-registration.php:60
+#: public/partials/ace-registration.php:61
+msgid "Confirm Password"
+msgstr "Cnferma password"
+
+#: admin/partials/ace-user-management-admin-display.php:66
+#: admin/partials/register_form.php:45
+#: public/partials/ace-confirm-randnum.php:33
+#: public/partials/ace-registration.php:91
+msgid "Submit"
+msgstr "Sottoscrivi"
+
+#: admin/partials/register_form.php:5
+msgid "Name of Label"
+msgstr "Nome dell'etichetta"
+
+#: admin/partials/register_form.php:8
+msgid "Type your label of field"
+msgstr "Scrivi la tua etichetta di campo"
+
+#: admin/partials/register_form.php:13
+msgid "PlaceHolder"
+msgstr "PlaceHolder"
+
+#: admin/partials/register_form.php:16
+msgid "Type your placeholder of field"
+msgstr "Scrivi il segnaposto del campo"
+
+#: admin/partials/register_form.php:21
+msgid "Name of Input"
+msgstr "Nome dell'ingresso"
+
+#: admin/partials/register_form.php:24
+msgid "Type your name of field"
+msgstr "Scrivi la tua etichetta di campo"
+
+#: admin/partials/register_form.php:29
+msgid "Name of Input Type"
+msgstr "Nome del tipo di input"
+
+#: admin/partials/register_form.php:33
+msgid "Text"
+msgstr "Testo"
+
+#: admin/partials/register_form.php:34
+msgid "Textarea"
+msgstr "Textarea"
+
+#: admin/partials/register_form.php:35
+msgid "Dropdown"
+msgstr "Cadere in picchiata"
+
+#: admin/partials/register_form.php:61
+msgid "Label"
+msgstr "Etichetta"
+
+#: admin/partials/register_form.php:62
+msgid "Name"
+msgstr "Nome"
+
+#: admin/partials/register_form.php:63
+msgid "Type"
+msgstr "Gnere"
+
+#: admin/partials/register_form.php:80
+msgid "Edit Field"
+msgstr "Modifica campo"
+
+#: admin/partials/register_form.php:89
+msgid "Input Label"
+msgstr "Etichetta di input"
+
+#: admin/partials/register_form.php:93
+msgid "Input Placeholder"
+msgstr "Inserisci segnaposto"
+
+#: admin/partials/register_form.php:96
+msgid "Input Type"
+msgstr "Tipo di input"
+
+#: admin/partials/register_form.php:104
+msgid "Dropdown Options"
+msgstr "Opzioni a discesa"
+
+#: admin/partials/register_form.php:109
+msgid "Input Name"
+msgstr "Nome dell'input"
+
+#: admin/partials/register_form.php:113 public/partials/ace-profile.php:117
+msgid "Update"
+msgstr "Aggiornare"
+
+#: admin/partials/register_form.php:114
+msgid "Delete"
+msgstr "Elimina"
+
+#: public/class-ace-user-management-public.php:176
+msgid "Profile"
+msgstr "Profilo"
+
+#: public/class-ace-user-management-public.php:177
+msgid "Log Out"
+msgstr "Disconnettersi"
+
+#: public/class-ace-user-management-public.php:179
+msgid "Log In"
+msgstr "Acesso"
+
+#: public/class-ace-user-management-public.php:180
+msgid "Sign Up"
+msgstr "Iscriviti"
+
+#: public/class-ace-user-management-public.php:249
+msgid "Lost Password"
+msgstr "Password dimenticata"
+
+#: public/class-ace-user-management-public.php:253
+msgid "Please check you email for reset password"
+msgstr "Si prega di controllare la tua e-mail per reimpostare la password"
+
+#: public/class-ace-user-management-public.php:256
+msgid "! Link not send"
+msgstr "! Link non inviato"
+
+#: public/class-ace-user-management-public.php:260
+msgid "! Email Not exists"
+msgstr "! Email non esiste"
+
+#: public/class-ace-user-management-public.php:263
+msgid "! Please enter a validate email"
+msgstr "! Si prega di inserire un indirizzo email valido"
+
+#: public/class-ace-user-management-public.php:267
+msgid "! Please enter Email field"
+msgstr "! Si prega di inserire il campo Email"
+
+#: public/class-ace-user-management-public.php:280
+msgid "Username or E-mail:"
+msgstr "Nome utente o email:"
+
+#: public/class-ace-user-management-public.php:284
+msgid "Get New Password"
+msgstr "Ottieni una nuova password"
+
+#: public/class-ace-user-management-public.php:331
+msgid "Password seccessfully update"
+msgstr "La password aggiorna periodicamente"
+
+#: public/class-ace-user-management-public.php:335
+msgid "! Confrim password not match"
+msgstr "! La password di Confrim non corrisponde"
+
+#: public/class-ace-user-management-public.php:338
+msgid "! Please enter confrim password"
+msgstr "! Si prega di inserire la password di confrim"
+
+#: public/class-ace-user-management-public.php:342
+msgid "! More than 5 character"
+msgstr "! Più di 5 caratteri"
+
+#: public/class-ace-user-management-public.php:346
+msgid "! Please Enter  password"
+msgstr "! Per favore, inserisci la password"
+
+#: public/class-ace-user-management-public.php:355
+msgid "This link has been expired."
+msgstr "Questo link è scaduto."
+
+#: public/class-ace-user-management-public.php:379
+msgid "Username exists"
+msgstr "Il nome utente esiste"
+
+#: public/class-ace-user-management-public.php:382
+#: public/partials/ace-login.php:37
+msgid "Enter Username"
+msgstr "Inserire username"
+
+#: public/class-ace-user-management-public.php:387
+msgid "This email already exists"
+msgstr "Qesta email esiste già"
+
+#: public/class-ace-user-management-public.php:390
+msgid "Enter valid email"
+msgstr "Inserisci un indirizzo e-mail valido"
+
+#: public/class-ace-user-management-public.php:393
+msgid "Enter email"
+msgstr "Inserisci l'email"
+
+#: public/class-ace-user-management-public.php:398
+msgid "password not same"
+msgstr "password non uguale"
+
+#: public/class-ace-user-management-public.php:401
+msgid "Enter Confirm Password"
+msgstr "Inserisci conferma password"
+
+#: public/class-ace-user-management-public.php:404
+#: public/partials/ace-login.php:41
+msgid "Enter Password"
+msgstr "Inserire la password"
+
+#: public/class-ace-user-management-public.php:409
+msgid "reCaptcha is not set"
+msgstr "reCaptcha non è impostato"
+
+#: public/partials/ace-login.php:28
+msgid "Username and password incorrect"
+msgstr "Nome utente e password errati"
+
+#: public/partials/ace-login.php:31
+msgid "Please fill all fields"
+msgstr "Per favore compila tutti i campi"
+
+#: public/partials/ace-login.php:44
+msgid "Remember me"
+msgstr "Remember me"
+
+#: public/partials/ace-login.php:46
+msgid "Forgot Password"
+msgstr "Ha dimenticato la password"
+
+#: public/partials/ace-login.php:55
+msgid "Login"
+msgstr "Accesso"
+
+#: public/partials/ace-profile.php:47
+msgid "Successfull Update"
+msgstr "Aggiornamento riuscito"
+
+#: public/partials/ace-profile.php:59
+msgid "Password not match"
+msgstr "La password non corrisponde"
+
+#: public/partials/ace-registration.php:37
+msgid "Add User Form"
+msgstr "Aggiungi modulo utente"

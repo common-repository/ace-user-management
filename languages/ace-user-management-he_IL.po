@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-03-01 21:35+0530\n"
+"PO-Revision-Date: 2019-03-01 22:07+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ace-user-management-admin.php:121
+msgid "User Registration"
+msgstr "רישום משתמש"
+
+#: admin/class-ace-user-management-admin.php:129
+#: admin/class-ace-user-management-admin.php:130
+#: admin/class-ace-user-management-admin.php:271
+msgid "Custom Fields"
+msgstr "שדות מותאמים אישית"
+
+#: admin/class-ace-user-management-admin.php:137
+#: admin/class-ace-user-management-admin.php:138
+#: admin/class-ace-user-management-admin.php:210
+msgid "Settings"
+msgstr "הגדרות"
+
+#: admin/class-ace-user-management-admin.php:174
+#: admin/class-ace-user-management-admin.php:177
+msgid "! Site key field is empty"
+msgstr "! שדה מפתח האתר ריק"
+
+#: admin/class-ace-user-management-admin.php:180
+msgid "! Secret key not valid"
+msgstr "! המפתח הסודי אינו חוקי"
+
+#: admin/class-ace-user-management-admin.php:183
+msgid "! Secret key field is empty"
+msgstr "! שדה המפתח הסודי ריק"
+
+#: admin/class-ace-user-management-admin.php:204
+msgid "Seccussfully update"
+msgstr "עדכון מעמיק"
+
+#: admin/class-ace-user-management-admin.php:216
+msgid "Enable reCaptcha"
+msgstr "אפשר reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:218
+msgid "Disable reCaptcha"
+msgstr "השבת reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:227
+msgid "Site Key"
+msgstr "מפתח אתר"
+
+#: admin/class-ace-user-management-admin.php:232
+msgid "Secert Key"
+msgstr "מפתח סודי"
+
+#: admin/class-ace-user-management-admin.php:236
+#: admin/class-ace-user-management-admin.php:253
+#: admin/partials/register_form.php:126
+msgid "Save"
+msgstr "להציל"
+
+#: admin/class-ace-user-management-admin.php:247
+msgid "StyleSheet(plugin pages css)"
+msgstr "StyleSheet (תוסף עמודים CSS)"
+
+#: admin/class-ace-user-management-admin.php:300
+msgid "field are updated successfully"
+msgstr "שדה מתעדכנים בהצלחה"
+
+#: admin/partials/ace-user-management-admin-display.php:19
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: admin/partials/ace-user-management-admin-display.php:21
+msgid "Registration Form"
+msgstr "טופס הרשמה"
+
+#: admin/partials/ace-user-management-admin-display.php:23
+#: admin/partials/ace-user-management-admin-display.php:24
+#: public/partials/ace-login.php:36 public/partials/ace-profile.php:81
+#: public/partials/ace-registration.php:48
+#: public/partials/ace-registration.php:49
+msgid "Username"
+msgstr "שם משתמש"
+
+#: admin/partials/ace-user-management-admin-display.php:27
+#: public/partials/ace-registration.php:52
+msgid "E-mail"
+msgstr "דואר אלקטרוני"
+
+#: admin/partials/ace-user-management-admin-display.php:28
+#: public/partials/ace-profile.php:77 public/partials/ace-registration.php:53
+msgid "Email"
+msgstr "דוא\"ל"
+
+#: admin/partials/ace-user-management-admin-display.php:31
+#: admin/partials/ace-user-management-admin-display.php:32
+#: public/partials/ace-confirm-randnum.php:24 public/partials/ace-login.php:40
+#: public/partials/ace-profile.php:85 public/partials/ace-registration.php:56
+#: public/partials/ace-registration.php:57
+msgid "Password"
+msgstr "סיסמה"
+
+#: admin/partials/ace-user-management-admin-display.php:35
+#: admin/partials/ace-user-management-admin-display.php:36
+#: public/partials/ace-confirm-randnum.php:28
+#: public/partials/ace-profile.php:89 public/partials/ace-registration.php:60
+#: public/partials/ace-registration.php:61
+msgid "Confirm Password"
+msgstr "אשר סיסמה"
+
+#: admin/partials/ace-user-management-admin-display.php:66
+#: admin/partials/register_form.php:45
+#: public/partials/ace-confirm-randnum.php:33
+#: public/partials/ace-registration.php:91
+msgid "Submit"
+msgstr "שלח"
+
+#: admin/partials/register_form.php:5
+msgid "Name of Label"
+msgstr "שם התווית"
+
+#: admin/partials/register_form.php:8
+msgid "Type your label of field"
+msgstr "הקלד את תווית השדה שלך"
+
+#: admin/partials/register_form.php:13
+msgid "PlaceHolder"
+msgstr "PlaceHolder"
+
+#: admin/partials/register_form.php:16
+msgid "Type your placeholder of field"
+msgstr "הקלד את מציין המיקום שלך"
+
+#: admin/partials/register_form.php:21
+msgid "Name of Input"
+msgstr "שם הקלט"
+
+#: admin/partials/register_form.php:24
+msgid "Type your name of field"
+msgstr "הקלד את שם השדה שלך"
+
+#: admin/partials/register_form.php:29
+msgid "Name of Input Type"
+msgstr "שם סוג הקלט"
+
+#: admin/partials/register_form.php:33
+msgid "Text"
+msgstr "טקסט"
+
+#: admin/partials/register_form.php:34
+msgid "Textarea"
+msgstr "טקסטרה"
+
+#: admin/partials/register_form.php:35
+msgid "Dropdown"
+msgstr "להפיל"
+
+#: admin/partials/register_form.php:61
+msgid "Label"
+msgstr "תווית"
+
+#: admin/partials/register_form.php:62
+msgid "Name"
+msgstr "שם"
+
+#: admin/partials/register_form.php:63
+msgid "Type"
+msgstr "הקלד"
+
+#: admin/partials/register_form.php:80
+msgid "Edit Field"
+msgstr "ערוך שדה"
+
+#: admin/partials/register_form.php:89
+msgid "Input Label"
+msgstr "תווית קלט"
+
+#: admin/partials/register_form.php:93
+msgid "Input Placeholder"
+msgstr "קלט Placeholder"
+
+#: admin/partials/register_form.php:96
+msgid "Input Type"
+msgstr "סוג קלט"
+
+#: admin/partials/register_form.php:104
+msgid "Dropdown Options"
+msgstr "אפשרויות נפתח"
+
+#: admin/partials/register_form.php:109
+msgid "Input Name"
+msgstr "שם קלט"
+
+#: admin/partials/register_form.php:113 public/partials/ace-profile.php:117
+msgid "Update"
+msgstr "עדכון"
+
+#: admin/partials/register_form.php:114
+msgid "Delete"
+msgstr "מחק"
+
+#: public/class-ace-user-management-public.php:176
+msgid "Profile"
+msgstr "פרופיל"
+
+#: public/class-ace-user-management-public.php:177
+msgid "Log Out"
+msgstr "להתנתק"
+
+#: public/class-ace-user-management-public.php:179
+msgid "Log In"
+msgstr "התחברות"
+
+#: public/class-ace-user-management-public.php:180
+msgid "Sign Up"
+msgstr "הירשם"
+
+#: public/class-ace-user-management-public.php:249
+msgid "Lost Password"
+msgstr "סיסמה אבודה"
+
+#: public/class-ace-user-management-public.php:253
+msgid "Please check you email for reset password"
+msgstr "אנא בדוק באימייל את סיסמת האיפוס"
+
+#: public/class-ace-user-management-public.php:256
+msgid "! Link not send"
+msgstr "! הקישור לא נשלח"
+
+#: public/class-ace-user-management-public.php:260
+msgid "! Email Not exists"
+msgstr "! אימייל לא קיים"
+
+#: public/class-ace-user-management-public.php:263
+msgid "! Please enter a validate email"
+msgstr "! אנא הכנס דוא\"ל לאימות"
+
+#: public/class-ace-user-management-public.php:267
+msgid "! Please enter Email field"
+msgstr "! הזן שדה דוא\"ל"
+
+#: public/class-ace-user-management-public.php:280
+msgid "Username or E-mail:"
+msgstr "שם משתמש או דוא\"ל:"
+
+#: public/class-ace-user-management-public.php:284
+msgid "Get New Password"
+msgstr "קבל סיסמה חדשה"
+
+#: public/class-ace-user-management-public.php:331
+msgid "Password seccessfully update"
+msgstr "סיסמה עדכון עדכון"
+
+#: public/class-ace-user-management-public.php:335
+msgid "! Confrim password not match"
+msgstr "! סיסמת Confrim אינה תואמת"
+
+#: public/class-ace-user-management-public.php:338
+msgid "! Please enter confrim password"
+msgstr "! הזן סיסמת Confirm"
+
+#: public/class-ace-user-management-public.php:342
+msgid "! More than 5 character"
+msgstr "! יותר מ -5 תווים"
+
+#: public/class-ace-user-management-public.php:346
+msgid "! Please Enter  password"
+msgstr "! הזן סיסמה"
+
+#: public/class-ace-user-management-public.php:355
+msgid "This link has been expired."
+msgstr "קישור זה פג."
+
+#: public/class-ace-user-management-public.php:379
+msgid "Username exists"
+msgstr "שם משתמש קיים"
+
+#: public/class-ace-user-management-public.php:382
+#: public/partials/ace-login.php:37
+msgid "Enter Username"
+msgstr "הכנס שם משתמש"
+
+#: public/class-ace-user-management-public.php:387
+msgid "This email already exists"
+msgstr "דוא\"ל זה כבר קיים"
+
+#: public/class-ace-user-management-public.php:390
+msgid "Enter valid email"
+msgstr "הזן כתובת דוא\"ל חוקית"
+
+#: public/class-ace-user-management-public.php:393
+msgid "Enter email"
+msgstr "הזן דוא\"ל"
+
+#: public/class-ace-user-management-public.php:398
+msgid "password not same"
+msgstr "הסיסמה לא זהה"
+
+#: public/class-ace-user-management-public.php:401
+msgid "Enter Confirm Password"
+msgstr "הזן אישור סיסמה"
+
+#: public/class-ace-user-management-public.php:404
+#: public/partials/ace-login.php:41
+msgid "Enter Password"
+msgstr "הזן את הסיסמה"
+
+#: public/class-ace-user-management-public.php:409
+msgid "reCaptcha is not set"
+msgstr "reCaptcha לא מוגדר"
+
+#: public/partials/ace-login.php:28
+msgid "Username and password incorrect"
+msgstr "שם המשתמש והסיסמה שגויים"
+
+#: public/partials/ace-login.php:31
+msgid "Please fill all fields"
+msgstr "בבקשה תמלא את כל השדות"
+
+#: public/partials/ace-login.php:44
+msgid "Remember me"
+msgstr "זכור אותי"
+
+#: public/partials/ace-login.php:46
+msgid "Forgot Password"
+msgstr "שכחת את הסיסמא"
+
+#: public/partials/ace-login.php:55
+msgid "Login"
+msgstr "התחברות"
+
+#: public/partials/ace-profile.php:47
+msgid "Successfull Update"
+msgstr "עדכון מוצלח"
+
+#: public/partials/ace-profile.php:59
+msgid "Password not match"
+msgstr "הסיסמה אינה תואמת"
+
+#: public/partials/ace-registration.php:37
+msgid "Add User Form"
+msgstr "הוסף טופס משתמש"

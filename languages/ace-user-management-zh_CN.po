@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-03-01 23:44+0530\n"
+"PO-Revision-Date: 2019-03-02 00:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ace-user-management-admin.php:121
+msgid "User Registration"
+msgstr "用户注册"
+
+#: admin/class-ace-user-management-admin.php:129
+#: admin/class-ace-user-management-admin.php:130
+#: admin/class-ace-user-management-admin.php:271
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: admin/class-ace-user-management-admin.php:137
+#: admin/class-ace-user-management-admin.php:138
+#: admin/class-ace-user-management-admin.php:210
+msgid "Settings"
+msgstr "设置"
+
+#: admin/class-ace-user-management-admin.php:174
+#: admin/class-ace-user-management-admin.php:177
+msgid "! Site key field is empty"
+msgstr "！站点键字段为空"
+
+#: admin/class-ace-user-management-admin.php:180
+msgid "! Secret key not valid"
+msgstr "！密钥无效"
+
+#: admin/class-ace-user-management-admin.php:183
+msgid "! Secret key field is empty"
+msgstr "！密钥字段为空"
+
+#: admin/class-ace-user-management-admin.php:204
+msgid "Seccussfully update"
+msgstr "巧妙地更新"
+
+#: admin/class-ace-user-management-admin.php:216
+msgid "Enable reCaptcha"
+msgstr "启用reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:218
+msgid "Disable reCaptcha"
+msgstr "禁用reCaptcha"
+
+#: admin/class-ace-user-management-admin.php:227
+msgid "Site Key"
+msgstr "网站密钥"
+
+#: admin/class-ace-user-management-admin.php:232
+msgid "Secert Key"
+msgstr "密钥"
+
+#: admin/class-ace-user-management-admin.php:236
+#: admin/class-ace-user-management-admin.php:253
+#: admin/partials/register_form.php:126
+msgid "Save"
+msgstr "保存"
+
+#: admin/class-ace-user-management-admin.php:247
+msgid "StyleSheet(plugin pages css)"
+msgstr "StyleSheet（插件页面css）"
+
+#: admin/class-ace-user-management-admin.php:300
+msgid "field are updated successfully"
+msgstr "字段已成功更新"
+
+#: admin/partials/ace-user-management-admin-display.php:19
+msgid "Preview"
+msgstr "预习"
+
+#: admin/partials/ace-user-management-admin-display.php:21
+msgid "Registration Form"
+msgstr "报名表格"
+
+#: admin/partials/ace-user-management-admin-display.php:23
+#: admin/partials/ace-user-management-admin-display.php:24
+#: public/partials/ace-login.php:36 public/partials/ace-profile.php:81
+#: public/partials/ace-registration.php:48
+#: public/partials/ace-registration.php:49
+msgid "Username"
+msgstr "用户名"
+
+#: admin/partials/ace-user-management-admin-display.php:27
+#: public/partials/ace-registration.php:52
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: admin/partials/ace-user-management-admin-display.php:28
+#: public/partials/ace-profile.php:77 public/partials/ace-registration.php:53
+msgid "Email"
+msgstr "电子邮件"
+
+#: admin/partials/ace-user-management-admin-display.php:31
+#: admin/partials/ace-user-management-admin-display.php:32
+#: public/partials/ace-confirm-randnum.php:24 public/partials/ace-login.php:40
+#: public/partials/ace-profile.php:85 public/partials/ace-registration.php:56
+#: public/partials/ace-registration.php:57
+msgid "Password"
+msgstr "密码"
+
+#: admin/partials/ace-user-management-admin-display.php:35
+#: admin/partials/ace-user-management-admin-display.php:36
+#: public/partials/ace-confirm-randnum.php:28
+#: public/partials/ace-profile.php:89 public/partials/ace-registration.php:60
+#: public/partials/ace-registration.php:61
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: admin/partials/ace-user-management-admin-display.php:66
+#: admin/partials/register_form.php:45
+#: public/partials/ace-confirm-randnum.php:33
+#: public/partials/ace-registration.php:91
+msgid "Submit"
+msgstr "提交"
+
+#: admin/partials/register_form.php:5
+msgid "Name of Label"
+msgstr "标签名称"
+
+#: admin/partials/register_form.php:8
+msgid "Type your label of field"
+msgstr "输入您的字段标签"
+
+#: admin/partials/register_form.php:13
+msgid "PlaceHolder"
+msgstr "占位符"
+
+#: admin/partials/register_form.php:16
+msgid "Type your placeholder of field"
+msgstr "输入您的占位符字段"
+
+#: admin/partials/register_form.php:21
+msgid "Name of Input"
+msgstr "输入名称"
+
+#: admin/partials/register_form.php:24
+msgid "Type your name of field"
+msgstr "输入您的字段名称"
+
+#: admin/partials/register_form.php:29
+msgid "Name of Input Type"
+msgstr "输入类型名称"
+
+#: admin/partials/register_form.php:33
+msgid "Text"
+msgstr "文本"
+
+#: admin/partials/register_form.php:34
+msgid "Textarea"
+msgstr "多行文本"
+
+#: admin/partials/register_form.php:35
+msgid "Dropdown"
+msgstr "落下"
+
+#: admin/partials/register_form.php:61
+msgid "Label"
+msgstr "标签"
+
+#: admin/partials/register_form.php:62
+msgid "Name"
+msgstr "名称"
+
+#: admin/partials/register_form.php:63
+msgid "Type"
+msgstr "类型"
+
+#: admin/partials/register_form.php:80
+msgid "Edit Field"
+msgstr "编辑字段"
+
+#: admin/partials/register_form.php:89
+msgid "Input Label"
+msgstr "输入标签"
+
+#: admin/partials/register_form.php:93
+msgid "Input Placeholder"
+msgstr "输入占位符"
+
+#: admin/partials/register_form.php:96
+msgid "Input Type"
+msgstr "输入类型"
+
+#: admin/partials/register_form.php:104
+msgid "Dropdown Options"
+msgstr "下拉选项"
+
+#: admin/partials/register_form.php:109
+msgid "Input Name"
+msgstr "输入名称"
+
+#: admin/partials/register_form.php:113 public/partials/ace-profile.php:117
+msgid "Update"
+msgstr "更新"
+
+#: admin/partials/register_form.php:114
+msgid "Delete"
+msgstr "删除"
+
+#: public/class-ace-user-management-public.php:176
+msgid "Profile"
+msgstr "轮廓"
+
+#: public/class-ace-user-management-public.php:177
+msgid "Log Out"
+msgstr "登出"
+
+#: public/class-ace-user-management-public.php:179
+msgid "Log In"
+msgstr "登录"
+
+#: public/class-ace-user-management-public.php:180
+msgid "Sign Up"
+msgstr "注册"
+
+#: public/class-ace-user-management-public.php:249
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: public/class-ace-user-management-public.php:253
+msgid "Please check you email for reset password"
+msgstr "请检查您的电子邮件重置密码"
+
+#: public/class-ace-user-management-public.php:256
+msgid "! Link not send"
+msgstr "！链接不发送"
+
+#: public/class-ace-user-management-public.php:260
+msgid "! Email Not exists"
+msgstr "！电子邮件不存在"
+
+#: public/class-ace-user-management-public.php:263
+msgid "! Please enter a validate email"
+msgstr "！请输入验证邮件"
+
+#: public/class-ace-user-management-public.php:267
+msgid "! Please enter Email field"
+msgstr "！请输入电子邮件字段"
+
+#: public/class-ace-user-management-public.php:280
+msgid "Username or E-mail:"
+msgstr "用户名或电子邮件："
+
+#: public/class-ace-user-management-public.php:284
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: public/class-ace-user-management-public.php:331
+msgid "Password seccessfully update"
+msgstr "密码成功更新"
+
+#: public/class-ace-user-management-public.php:335
+msgid "! Confrim password not match"
+msgstr "！ Confrim密码不匹配"
+
+#: public/class-ace-user-management-public.php:338
+msgid "! Please enter confrim password"
+msgstr "！请输入confrim密码"
+
+#: public/class-ace-user-management-public.php:342
+msgid "! More than 5 character"
+msgstr "！超过5个字符"
+
+#: public/class-ace-user-management-public.php:346
+msgid "! Please Enter  password"
+msgstr "！请输入密码"
+
+#: public/class-ace-user-management-public.php:355
+msgid "This link has been expired."
+msgstr "此链接已过期。"
+
+#: public/class-ace-user-management-public.php:379
+msgid "Username exists"
+msgstr "用户名存在"
+
+#: public/class-ace-user-management-public.php:382
+#: public/partials/ace-login.php:37
+msgid "Enter Username"
+msgstr "输入用户名"
+
+#: public/class-ace-user-management-public.php:387
+msgid "This email already exists"
+msgstr "此电子邮件已存在"
+
+#: public/class-ace-user-management-public.php:390
+msgid "Enter valid email"
+msgstr "输入有效的邮箱"
+
+#: public/class-ace-user-management-public.php:393
+msgid "Enter email"
+msgstr "输入邮箱"
+
+#: public/class-ace-user-management-public.php:398
+msgid "password not same"
+msgstr "密码不一样"
+
+#: public/class-ace-user-management-public.php:401
+msgid "Enter Confirm Password"
+msgstr "输入确认密码"
+
+#: public/class-ace-user-management-public.php:404
+#: public/partials/ace-login.php:41
+msgid "Enter Password"
+msgstr "输入密码"
+
+#: public/class-ace-user-management-public.php:409
+msgid "reCaptcha is not set"
+msgstr "reCaptcha未设置"
+
+#: public/partials/ace-login.php:28
+msgid "Username and password incorrect"
+msgstr "用户名和密码不正确"
+
+#: public/partials/ace-login.php:31
+msgid "Please fill all fields"
+msgstr "请填写所有字段"
+
+#: public/partials/ace-login.php:44
+msgid "Remember me"
+msgstr "记住账号"
+
+#: public/partials/ace-login.php:46
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+#: public/partials/ace-login.php:55
+msgid "Login"
+msgstr "登录"
+
+#: public/partials/ace-profile.php:47
+msgid "Successfull Update"
+msgstr "成功更新"
+
+#: public/partials/ace-profile.php:59
+msgid "Password not match"
+msgstr "密码不匹配"
+
+#: public/partials/ace-registration.php:37
+msgid "Add User Form"
+msgstr "添加用户表单"

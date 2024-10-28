@@ -1,0 +1,468 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ #2a9bd9 old
+ */
+
+.ace-reCap-setting{
+  border-bottom: 1px solid #b9adad;
+  margin: 0;
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  float: left;
+}
+
+.ace-reCap-box{
+  width:100%;
+
+}
+/* */
+.ace-reCap-setting h4{
+	font-family: sans-serif;
+    font-size:14px;
+}
+.ace-reCap-setting tr td input[type='text']{
+  width: 60%;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin: 0 0 18px;
+
+ }
+ .ace-reCap-setting tr td input:focus {
+  border:1px solid #34a7C1;
+}
+
+ .ace-reCap-setting tr td .switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 25px;
+  margin-left: 16px;
+
+}
+
+.ace-reCap-setting tr td .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.ace-reCap-setting tr td .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.ace-reCap-setting tr td .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.ace-reCap-setting tr td input:checked + .slider {
+  background-color: #34a7C1;
+}
+
+.ace-reCap-setting tr td input:focus + .slider {
+  box-shadow: 0 0 1px #34a7C1;
+}
+
+.ace-reCap-setting tr td input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.ace-reCap-setting tr td .slider.round {
+  border-radius: 34px;
+  
+}
+
+.ace-reCap-setting tr td .slider.round:before {
+  border-radius: 50%;
+}
+
+/* submit Button */
+.ace-reCap-setting tr td .ace-recap-save{
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  background: #56ad75eb;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  
+}
+.ace-reCap-setting tr td .ace-recap-save :hover{
+  background: #1a6f39eb;
+  transition: 0.3s;
+}
+
+span.ace-error-alert-danger{
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  font-size: 15px;
+  display: block;
+  line-height: 30px;
+  margin-left: 2px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 10px;
+}
+span.ace-success-alert-success{
+    width:90%;
+    height:30px;
+    border-radius:2px;
+    font-size: 15px;
+    display:block;
+    line-height: 30px;
+    margin-left:48px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 10px;
+}
+
+/* font awesome key */
+.ace-reCap-setting tr td i.fa-key{
+  position: relative;
+  left:30px;
+  top:1px;
+  font-weight: bold;
+  transform: rotate(190deg);
+}
+
+/* registraion_form css */
+
+.container {
+  width: 1180px;
+  margin-top: 3em;
+  
+}
+#ace-accordion .panel {
+  border-radius: 0;
+  border: 0;
+  margin-top: 0px;
+}
+#ace-accordion a {
+    display: block;
+    padding: 4px 15px;
+    border-bottom: 1px solid #b42b2b;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    font-family: inherit;
+    cursor: no-drop;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grab;
+}
+#ace-accordion .panel-heading a.collapsed:hover,
+#ace-accordion .panel-heading a.collapsed:focus {
+  background-color: #b42b2b;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+#ace-accordion .panel-heading a.collapsed:hover::before,
+#ace-accordion .panel-heading a.collapsed:focus::before {
+  color: white;
+}
+#ace-accordion .panel-heading {
+  padding: 0;
+  border-radius: 0px;
+  text-align: center;
+}
+#ace-accordion .panel-heading a.collapsed:hover, #ace-accordion .panel-heading a.collapsed:focus{
+  background: #1a84bf;
+}
+
+/* Add Indicator fontawesome icon to the left */
+
+#ace-accordion .panel-heading .accordion-toggle.collapsed::before {
+    color: #fff;
+    transform: rotate(-181deg);
+    transition: all 0.2s ease-in;
+    padding: 6px 3px;
+    position: relative;
+    left: 15px;
+    display: none;
+}
+.field_count_ {
+    border: 1px solid;
+    padding: 4px 5px;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    float: left;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 6px;
+}
+.ace-accrodion-box form.register_form .row {
+    margin-bottom: 13px;
+}
+
+.ace-accrodion-box form.register_form span.exampl {
+    font-weight: bold;
+    margin-top: 6px;
+    display: block;
+}
+a.accordion-toggle.collapsed.fa.fa-chevron-down {
+    background: #2a9bd9;
+    color: #fff;
+}
+a.accordion-toggle.fa.fa-chevron-down:focus {
+    background: #2a9bd9;
+    border: none !important;
+}
+.ace-accrodion-box input.btn.btn-primary.submit_btn {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    padding: 7px 21px;    
+}
+#ace-accordion a{
+   background: #2a9bd9;
+    border: none !important;
+    height: 49px;
+}
+.collapse.in {
+    padding-top: 0px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+    background: #fff;
+    padding: 37px;
+}
+body{
+  background: #f1f1f1;
+}
+.ace-accrodion-box form.register_form {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+    background: #fff;
+    padding: 28px 15px;
+}
+.ace-accrodion-box form.register_form input[type='text'], form.register_form select {
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+    border-radius: 0px;
+    height: 32px;
+}
+.ace-accrodion-box div#wpbody-content h1 {
+    text-align: left;
+    font-size: 26px;
+    width: 100%;
+    display: block;
+}
+.ace-accrodion-field ul.table_thead li {
+       display: inline-block;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    width: 27%;
+    text-align: center;
+    padding-left: 135px;
+}
+.panel-group {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+    background: #fff;
+    padding: 28px 15px;
+}
+.ace-accrodion-field .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  border:none;
+}
+.ace-accrodion-field .panel-title span.title_ {
+        float: left;
+    /* margin-left: 25px; */
+    margin-top: 9px;
+    color: #fff;
+    font-size: 18px;
+    width: 29%;
+}
+.ace-accrodion-field button.btn.btn-primary.edit {
+    float: right;
+    background: #1285c5;
+    border: none;
+    position: relative;
+    bottom: -3px;
+    padding: 7px 12px 4px;
+    border-radius: 3px;
+}
+.ace-accrodion-field table.table input[type=text], table.table select {
+    border-radius: 0px;
+    height: 34px;
+}
+.ace-accrodion-field table.table select{
+  margin-bottom: 10px;
+ }
+ .ace-accrodion-field .fa-chevron-down:before{
+  display: none;
+ }
+ .ace-accrodion-field input.btn.btn-primary.submit_btn.save_btn {
+    margin-left: 9px;
+}
+
+.ace-accrodion-box,.ace-accrodion-box-label{
+border-top: 5px solid #2a9bd9;
+background: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+width: 90%;
+margin-left: 50px;
+}
+
+/* user registration display css*/
+
+.ace-reg-display{
+  margin-left: 50px;
+  margin-top: 10px;
+  width:90%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+  border-top: 5px solid #2a9bd9;
+
+
+}
+
+.ace-reg-display .ace-reg-display-label {
+  margin-left: 60px;
+  margin-top: 11px;
+}
+.ace-reg-display .ace-reg-display-label label{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ace-reg-display .ace-reg-display-label input{
+    padding: 6px;
+    width: 92%;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.ace-reg-display .ace-reg-display-label input[type='submit']{
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 14px;
+    width: 100px;
+}
+.ace-reCap-setting tr td .ace-recap-save.desc_btn {
+    margin-left: 0;
+}
+
+
+@media screen and (min-width: 1875px) {
+  .ace-accrodion-field button.btn.btn-primary.edit {
+    float: right;
+    background: #1285c5;
+    border: none;
+    position: relative;
+    bottom: 24px;
+    padding: 7px 12px 4px;
+    border-radius: 3px;
+  }
+}
+.Ace-Setting-awm-links-paypal {
+  background: #31824eeb;
+  border-radius: 6px;
+  color: #fff!important;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 6px;
+  font-weight: normal;
+}
+
+
+.Ace-Setting-title-content {
+
+    width: 100%;
+    background: #56ad75eb;
+    padding: 16px 23px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+.Ace-Setting-paypal-svg {
+  width: 31px;
+  filter: grayscale(100%);
+}
+
+.Ace-Setting-title-content {
+  display: flex;
+  justify-content: space-between;
+}
+.Ace-Setting-title {
+  font-size: 26px;
+  color: white;
+  position: relative;
+  left: 6px;
+}
+.Ace-Setting_label {
+  width: 50%;
+}
+.label-name {
+  width: 222px;
+}
+
+.Ace-Setting_right_input {
+  margin-left: 16px;
+}
+#myTextArea {
+  width: 48%;
+  margin-bottom: 22px;
+  margin-left: 4%;
+  border-radius: 6px;
+  height: 44px;
+  padding-top: 10px;
+}
+.ace-recap-save.desc_btn {
+  width: 200px;
+  height: 50px;
+  margin: 24px 0px;
+  background: #56ad75eb;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* .preview_style {
+  width: 100%;
+  background: #56ad75eb;
+  padding: 16px 23px;
+  margin-top: 10px;
+  box-sizing: border-box;
+} */

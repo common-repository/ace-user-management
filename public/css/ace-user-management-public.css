@@ -1,0 +1,207 @@
+
+.ace-user_login-form .ace-form-label,.ace-user_confrim_pass,.ace-add_user_profile .ace-form-label,.ace-add_user_outer .ace-form-label{
+    margin-top: 10px;
+    padding-top: 17px;
+  }
+
+  .ace-form-label select {
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #43454b;
+    outline: 0;
+    border: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+    height: 40px;
+    padding: 3px 11px;
+}
+
+
+/* ace-confrim-randnum css */
+
+  .ace-user_confrim_pass{
+    width:400px;
+  }
+
+  .ace-user_confrim_pass .ace-confrim-pass input{
+            padding: 5px;
+            width:400px;
+  }
+
+  .ace-user_confrim_pass .ace-confrim-pass input:focus{
+        border:1px solid #2a9bd9;
+  }
+
+  .ace-user_confrim_pass .ace-confrim-pass .ace-btn-cfm-pas{
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    width:100px; 
+  }
+
+ /* ace-login css */
+ 
+ 	.ace-user_login-form{
+    	width:400px;
+  	}
+
+  .ace-user_login-form .ace-form-label{
+    margin-top: 10px;
+  }
+
+  .ace-user_login-form .ace-login-form input{
+        padding: 5px;
+        width:400px;
+  }
+  .ace-user_login-form .ace-login-form input[type="checkbox"]{
+  	width:auto;
+  }
+
+  .ace-user_login-form .ace-login-form input:focus{
+        border:1px solid #2a9bd9;
+  }
+
+  .ace-user_login-form .ace-login-form .ace-login-btn{
+	    background: #0085ba;
+	    border-color: #0073aa #006799 #006799;
+	    box-shadow: 0 1px 0 #006799;
+	    color: #fff;
+	    padding: 10px 25px;
+	    font-size: 14px;
+	    width:100%; 
+  }
+
+  .ace-user_login-form .ace-login-form .ace-forget-pass{
+  		float: right;
+  		color:#323232;
+  }
+
+  /*ace-profile-css*/
+
+  .ace-add_user_profile{
+    width:400px;
+  }
+
+  .ace-add_user_profile .ace-profile-form input{
+            padding: 5px;
+            width:400px;
+  }
+
+  .ace-add_user_profile .ace-profile-form input:focus{
+        border:1px solid #2a9bd9;
+  }
+
+  .ace-add_user_profile .ace-profile-form button{
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px; 
+  }
+
+  /*a ace registration css*/
+
+  .ace-add_user_outer{
+    width:400px;
+  }
+
+  .ace-add_user_outer .ace-registration-form .ace-form-label {
+    padding: 0px;
+    padding-top: 13px;
+  }
+
+  .ace-add_user_outer .ace-registration-form input{
+            padding: 5px;
+            width:400px;
+  }
+
+  .ace-add_user_outer .ace-registration-form input:focus{
+        border:1px solid #2a9bd9;
+  }
+
+  .ace-add_user_outer .ace-registration-form .ace-reg-submit{
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    width: 100px;
+  }
+
+  /* all error css  */
+  .ace-user_login-form .ace-login-failed,.ace-login-empty{
+      width:100%;
+      padding: 10px;
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+      font-size: 15px;
+
+  }
+
+  /* ace forget password */
+
+  .ace-user_forget-form .ace-mylostpasswordform input{
+      padding: 5px;
+      width:400px; 
+  }
+  
+  .ace-user_forget-form .ace-btn-rest-pass{
+        background: #0085ba;
+        border-color: #0073aa #006799 #006799;
+        box-shadow: 0 1px 0 #006799;
+        color: #fff;
+        font-size: 14px;
+        width: auto;
+        
+  }
+
+  .ace-all-error{
+      width:100%;
+      padding: 10px;
+      color: #a94442;
+      background-color: #f2dede;
+      border-color: #ebccd1;
+      font-size: 15px;
+  }
+
+  .ace-all-success{
+    width:400px;
+    padding: 10px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    border-color: #ebccd1;
+    font-size: 15px;
+  }
+
+  /* confrim password css */
+  .ace-confrim-pass .ace-form-label{
+    padding-top:10px;
+
+  }
+
+  .ace-form-label {
+    padding: 0px;
+    padding-top: 13px;
+}
+
+
+@media screen and (max-width: 350px){
+.g-recaptcha {
+    transform: scale(0.77) !important;
+    -webkit-transform: scale(0.77) !important;
+    transform-origin: 0 0 !important;
+    -webkit-transform-origin: 0 0 !important;
+}}
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ 
